@@ -1,0 +1,23 @@
+[
+  { "id": 1, "fruta": "Manzana", "precio": 2500, "calidad": "Excelente", "imagen": "assets/img/manzana.jpg" },
+  { "id": 2, "fruta": "Manzana", "precio": 2000, "calidad": "Buena", "imagen": "assets/img/manzana.jpg" },
+  { "id": 3, "fruta": "Manzana", "precio": 1500, "calidad": "Regular", "imagen": "assets/img/manzana.jpg" },
+  { "id": 4, "fruta": "Frutilla", "precio": 2000, "calidad": "Excelente", "imagen": "assets/img/frutilla.avif" },
+  { "id": 5, "fruta": "Frutilla", "precio": 1500, "calidad": "Buena", "imagen": "assets/img/frutilla.avif" },
+  { "id": 6, "fruta": "Frutilla", "precio": 1000, "calidad": "Regular", "imagen": "assets/img/frutilla.avif" },
+  { "id": 7, "fruta": "Pera", "precio": 1500, "calidad": "Excelente", "imagen": "assets/img/pera.webp" },
+  { "id": 8, "fruta": "Pera", "precio": 1000, "calidad": "Buena", "imagen": "assets/img/pera.webp" },
+  { "id": 9, "fruta": "Pera", "precio": 500, "calidad": "Regular", "imagen": "assets/img/pera.webp" },
+  { "id": 10, "fruta": "Palta", "precio": 4500, "calidad": "Excelente", "imagen": "assets/img/palta.png" },
+  { "id": 11, "fruta": "Palta", "precio": 4000, "calidad": "Buena", "imagen": "assets/img/palta.png" },
+  { "id": 12, "fruta": "Palta", "precio": 3500, "calidad": "Regular", "imagen": "assets/img/palta.png" },
+  { "id": 13, "fruta": "Uva", "precio": 3000, "calidad": "Excelente", "imagen": "assets/img/uva.jpg" },
+  { "id": 14, "fruta": "Uva", "precio": 2500, "calidad": "Buena", "imagen": "assets/img/uva.jpg" },  
+  { "id": 15, "fruta": "Uva", "precio": 2000, "calidad": "Regular", "imagen": "assets/img/uva.jpg" },
+  { "id": 16, "fruta": "Durazno", "precio": 1800, "calidad": "Excelente", "imagen": "assets/img/durazno.jpg" },
+  { "id": 17, "fruta": "Durazno", "precio": 1500, "calidad": "Buena", "imagen": "assets/img/durazno.jpg" },
+  { "id": 18, "fruta": "Durazno", "precio": 1300, "calidad": "Regular", "imagen": "assets/img/durazno.jpg" },
+  { "id": 19, "fruta": "Cereza", "precio": 8000, "calidad": "Excelente", "imagen": "assets/img/cereza.jpg" },
+  { "id": 20, "fruta": "Cereza", "precio": 7500, "calidad": "Buena", "imagen": "assets/img/cereza.jpg" },
+  { "id": 21, "fruta": "Cereza", "precio": 7000, "calidad": "Regular", "imagen": "assets/img/cereza.jpg" }
+]

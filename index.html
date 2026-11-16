@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tienda de frutas</title>
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Tienda de frutas</h1>
+
+    <div class="layout">
+      <section class="catalogo">
+        <div class="filtros">
+          <input type="text" id="input-buscar" placeholder="Buscar fruta en el catálogo...">
+          <select id="filtro-calidad" aria-label="Filtrar por calidad">
+            <option value="Todas">Todas las calidades</option>
+            <option value="Excelente">Excelente</option>
+            <option value="Buena">Buena</option>
+            <option value="Regular">Regular</option>
+          </select>
+        </div>
+        <div id="contenedor-frutas" class="lista-productos"></div>
+      </section>
+
+      <aside class="carrito">
+        <h2> Tu carrito</h2>
+        <div class="resumen-inventario">
+          <p>Unidades: <span id="total-unidades">0</span></p>
+          <p>Total: <strong id="valor-total">$0</strong></p>
+        </div>
+        <div id="contenedor-carrito" class="lista-productos"></div>
+        <div class="acciones">
+          <button type="button" id="btn-comprar" class="btn-comprar" disabled>Confirmar compra</button>
+          <button type="button" id="btn-vaciar" class="btn-vaciar">Vaciar carrito</button>
+        </div>
+      </aside>
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+  <script type="module" src="./js/main.js"></script>
+</body>
+</html>
